@@ -29,7 +29,7 @@ for (let l of t) {
   console.log(l)
   let m = l.match(/\s*line\s*(?<lenght>(\d\d*(\.\d*)?)|(\.\d\d*))/gm);
   console.log(m)
-  }
 }
+
 
 // /\s*line\s*(?<lenght>(\d\d*(\.\d*)?)|(\.\d\d*))/gm
