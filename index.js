@@ -14,7 +14,7 @@ turn 90
 line 50
 `
 
-let t = geometry
+let t = geometry;
 
 t = t.replace(/\s*#.*/gm, ``) // delete any comments
 t = t.replace(/\r/gm, ``) // convert CRLF to LF
